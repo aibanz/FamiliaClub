@@ -227,7 +227,7 @@ rowData!="logo"?img.className="image":img.className="logos"
  async function mostrarDatos() {
    try {
      const response = await fetch(
-       "https://script.google.com/macros/s/AKfycbwaC-qrjz7qICzBgPvp7D5JyLDb7IHOQagN4cV7N8jlG4H9kS9OdUN2OVvyFFyenVI0/exec"
+       "https://script.google.com/macros/s/AKfycbzVFEZV2qu9Ulg_HIuKVKOe5suWDkRbQeXZpGpsNuS_IEhBUIQLsXKssY81yqYvHXAm/exec"
      );
      const data = await response.json();
      crearElementos(data);
